@@ -18,7 +18,7 @@ This GitHub Action checks if a linked dependency pull request (in the body of a 
 ## Example usage
 
 ```yaml
-- uses: shuhaibzahir/check-dependency-pr@v1
+- uses: shuhaibzahir/check-dependency-pr@v3
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
     user-token: ${{ secrets.USER_GITHUB_TOKEN }} # optional, for private repos
