@@ -1,0 +1,13 @@
+name: 'Check Dependency PR'
+description: 'Checks linked dependency PR status and updates the body of the current PR.'
+author: 'Your Name'
+inputs:
+  github-token:
+    description: 'Default GitHub token'
+    required: true
+  user-token:
+    description: 'Optional personal access token for accessing private repos'
+    required: false
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
